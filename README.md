@@ -1,13 +1,15 @@
 # Git Commands
 
 ##Frequently Used Commands
-git clone https://github.com/markrobertdavid/git-demo.git
-git add start.txt (Put files in git staging area)
-git commit -m "Adding start text file" (Put files for staging to the local repository)
-git pull origin main (Just to make sure that the repo is up-to-date)
-git push origin main
--> main refers to our default branch in the repository
--> Put changes on Github repository
+###git clone https://github.com/markrobertdavid/git-demo.git
+###git checkout release/specific-branch (Copy code from this branch)
+###git checkout -b release/new-branch-name (Create new local branch)
+###git add start.txt (Put files in git staging area)
+###git commit -m "Adding start text file" (Put files for staging to the local repository)
+###git pull origin main (Just to make sure that the repo is up-to-date)
+###git push origin main
+####-> main refers to our default branch in the repository
+####-> Put changes on Github repository
 
 ##Configuration Commands
 git version
